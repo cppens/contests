@@ -37,7 +37,7 @@ int main()
         //gabung kedua nama desa
         string desa = desa1 + " " + desa2;
 
-        //cari jarak axis-x dan axis-y di koordinat kedua desa (lihat rumus jarak antara dua koordinat)
+        //cari jarak antara sumbu x dan antara sumbu y di koordinat kedua desa (lihat rumus jarak antara dua koordinat)
         double jarakX = pow(abs(x2-x1),2);
         double jarakY = pow(abs(y2-y1),2);
 
