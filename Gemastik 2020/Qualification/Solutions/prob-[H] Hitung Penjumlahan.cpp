@@ -46,15 +46,15 @@ int main()
 
         cin >> x1 >> y1 >> x2 >> y2;
 
-        //tiap koordinat didecrement karena kita menggunakan index-0
+        //tiap koordinat didecrement karena kita menggunakan 0-based index
         x1--;y1--;x2--;y2--;
 
         //iterasi tiap baris submatrix
         for(i = x1; i <= x2; i++) {
 
-            //bayangkan kolom adalah axis-x pada bidang kartesius
+            //bayangkan kolom adalah sumbu x pada bidang kartesius
             //untuk mencari jarak maka dilakukan pengurangan titix paling kanan dikurangi titik paling kiri
-            //karena dp tadi merupakan penjumlahan kolom pertama sd terakhir maka kolom pertama sd terakhir dapat dianggap sebagai "jarak"
+            //karena dp tadi merupakan penjumlahan kolom pertama s/d terakhir maka kolom pertama s/d terakhir dapat dianggap sebagai "jarak"
             ans+= dp[i][y2+1] - dp[i][y1];
         }
 
