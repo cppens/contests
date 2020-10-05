@@ -15,7 +15,6 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    //batasan input 1<=p,q,m,n<=10000 (lihat format masukan)
     int p,q,m,n;
     cin >> n;
 
