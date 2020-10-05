@@ -10,7 +10,7 @@ using namespace std;
 const unsigned mod = 100000037;
 
 //driver function untuk sortir descending (detailnya bisa cari di internet wkwk)
-//sortir element secara descending
+//sortir elemen secara descending dimana yang dibandingkan adalah elemen pertama/jarak
 bool sortinrev(const pair<long int,string> &a,
                const pair<long int,string> &b)
 {
